@@ -17,6 +17,8 @@ mongoose
         console.log(err);
     });
 
+//MONGO_URL =mongodb+srv://cweston0727:RIpcpqZAFy0W9qQu@cluster0.ahgdx.mongodb.net/habittracker?retryWrites=true&w=majority
+
 //ejs//
 app.use(expressLayouts);
 app.use("/assets", express.static('./assets'));
